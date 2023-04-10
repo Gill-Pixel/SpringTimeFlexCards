@@ -1,0 +1,106 @@
+.masterhead {
+    display: flex;
+    background:#9FC4FF;
+    height: 75px;
+    justify-content: center;
+}
+
+.centeredText {
+      text-align: center;
+      margin: 10px;
+}
+
+.site-title {
+    color: #012030;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-area {
+    border: 4px solid #98A2B2;
+    background-color: #D9F2D8;
+}
+  
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -1em;
+}
+
+.card {
+    background: white;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    border: 3px dashed #F6C5BE;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    box-shadow: 3px 3px 8px #D9F2D8;
+}
+
+.card-content {
+    padding: 1.4em;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+.card-content p {
+    font-size: 95%;
+    font-weight: bolder;
+}
+
+.pixHolder {
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #9FC4FF;
+    margin-top: 3px;
+    height: 30px;
+    font-size: 25px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .cards {
+      margin-top: -1em;
+    }
+  
+    .card {
+      flex: 0 1 calc(50% - 0.5em);
+      margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .cards {
+      margin-top: inherit;
+    }
+  
+    .card {
+      flex: 0 1 calc(33% - 1em);
+      margin-bottom: 2em;
+    }
+}
+
+
+  
